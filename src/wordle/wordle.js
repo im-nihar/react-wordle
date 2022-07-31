@@ -11,7 +11,6 @@ const Wordle = () => {
   const [isGameOver, setIsGameOver] = useState(false);
 
   useEffect(() => {
-    console.log("isGameOver", isGameOver, guesses);
     const handleType = (event) => {
       if (isGameOver) {
         return;
